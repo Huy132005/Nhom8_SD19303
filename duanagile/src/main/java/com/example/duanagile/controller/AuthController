@@ -1,1 +1,10 @@
+package com.example.duanagile.controller;
 
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class AuthController {
+    @GetMapping("/dangNhap/hien-thi")
+    public String hienThidangNhap() {
+        return "dangNhap/hien-thi";
+    }
+}
