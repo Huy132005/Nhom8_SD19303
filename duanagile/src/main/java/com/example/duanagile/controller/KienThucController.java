@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class KienThucController {
     @GetMapping("/kienThuc/hien-thi")
     public String hienThiKienThuc() {
-        return "kienThuc/hien-thi";
+        return "kienThuc";
     }
 }

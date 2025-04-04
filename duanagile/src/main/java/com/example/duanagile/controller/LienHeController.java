@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class LienHeController {
     @GetMapping("/lienHe/hien-thi")
     public String hienThiLienHe() {
-        return "lienHe/hien-thi";
+        return "lienHe";
     }
 }
